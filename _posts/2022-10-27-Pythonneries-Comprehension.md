@@ -107,7 +107,7 @@ En code golfing quand nous devons avoir le code le plus petit possible nous nous
 
 Un exemple qui illustrera bien :
 ```py
-[print(i) for in range(5)]
+[print(i) for i in range(5)]
 
 """ Affichage :
 0
