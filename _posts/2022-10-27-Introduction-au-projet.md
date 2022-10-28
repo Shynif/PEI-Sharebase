@@ -35,5 +35,5 @@ Cloner le [repo sur Github][GitProjet], écrivez ou modifiez votre magnifique pa
 
 
 
-[GitProjet] : https://github.com/Shynif/PEI_Sharebase
-[TutoMKD] : https://www.markdownguide.org/basic-syntax/
+[GitProjet]: https://github.com/Shynif/PEI_Sharebase
+[TutoMKD]:   https://www.markdownguide.org/basic-syntax/
