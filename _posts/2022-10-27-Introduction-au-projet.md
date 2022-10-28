@@ -21,7 +21,7 @@ Des tricks en Python, C, en Mécanique ou même en Word, toutes astuces y ont le
 
 # Comment le site fonctionne
 
-Le site est *pour l'instant* hébergé gratuitement sur Netlify. Si à tout moment le site ne répond plus pendant ~3 minutes c'est que la toute dernière version du code est en train d'être construite et executé. Le site est mis à jour automatiquement à chaque nouvelle version ajoutée au [Github][GitProjet].
+Le site est *pour l'instant* hébergé gratuitement sur Netlify. Si à tout moment le site ne répond plus pendant ~3 minutes c'est que la toute dernière version du code est en train d'être construite et executée. Le site est mis à jour automatiquement à chaque nouvelle version ajoutée au repo [Github][GitProjet].
 
 ## C'est fait en quoi ?
 
