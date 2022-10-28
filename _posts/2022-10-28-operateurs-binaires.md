@@ -44,6 +44,8 @@ Table selon les conventions. Comme expliqué précédemment, regardez la documen
 |:---:|:--:|:---:|:---:|:--------------:|:---------------:|
 |  &  | \| |  ^  |  !  |      \<\<      |       \>\>      |
 
+**\|\|, \|, &&, &, on s'y perd ! C'est quoi la différence ?** Dans des langages comme C on a ``&&`` et ``||`` qui sont des **opérateurs conditionnelles qui retourne Vrai ou Faux** et qu'on retrouve dans des structures conditionelles comme ``If (A && B)`` ou ``If (A || B)``. Les **opérateurs binaires** sont des opérations comme AND et OR qui **s'effectuent sur CHAQUE bits** et sont représentés par seulement 1 caractère, ``&``, ``|``, etc...
+
 # Dictionnaire des opérateurs
 
 ## Opérateurs binaires
