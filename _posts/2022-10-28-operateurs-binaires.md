@@ -113,7 +113,7 @@ Opérateur TRES utile dans beaucoup d'opérations. Utilisé notamment pour faire
 
 Dans la plupart des opérations complexes il est nécessaire de décaler les bits. En AND et OR cela devient plus que fastidieux. C'est pour ça que nous avons les **opérateurs de décalage de bits** qui permettent de décaler de X bits vers la droite ou la gauche votre valeur binaire.
 
-Ces opérations sembles un peu abstraites mais elle peuvent facilement relier au "monde réel" si on affiche leur valeur décimal. Par exemple si je décale de 2 vers la gauche j'obtiens mon nombre fois 2 ! Et vers la droite ? On divise notre nombre par 2 ! **Quand on décale de X bits on fait une multiplication/division par $$2^{x}$$**.
+Ces opérations sembles un peu abstraites mais elle peuvent facilement relier au "monde réel" si on affiche leur valeur décimal. Par exemple si je décale de 1 vers la gauche j'obtiens mon nombre fois 2 ! Et vers la droite ? On divise notre nombre par 2 ! **Quand on décale de X bits on fait une multiplication/division par $$2^{x}$$**.
 
 ### Left Bit Shift
 

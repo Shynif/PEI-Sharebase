@@ -33,6 +33,8 @@ Cloner le [repo sur Github][GitProjet], écrivez ou modifiez votre magnifique pa
 
 *Pas de panique si rien ne change. Les modifications ne sont pas immédiates si vous n'êtes pas contributeur, il faudra attendre qu'Antoine se bouge, approuve votre contribution et vous ajoute.*
 
+Si certains se débrouillent pour les version Mobiles ! Le site a vraiment besoin d'aide là-dessus ...
+
 
 
 [GitProjet]: https://github.com/Shynif/PEI_Sharebase
