@@ -3,19 +3,20 @@ author:
 - skilo
 layout: post
 title: "Notes de cours - Langage d'assemblage x86_64 sous GNU/Linux"
-date: 04-01-2024
-image: '/assets/img/'
-description: 'Des petites notes d'assembleur'
-main-class: 'exemple'
-color: '#7AAB13'
+date: 2024-01-04 00:00:00
+image: "/assets/img/"
+description: "Des petites notes d'assembleur"
+main-class: 'dev'
+color:
 tags:
 - asm
 - linux
 - architecture
 categories:
-twitter_text: 'Des notes de cours sur le langage d'assemblage x86_64 sous GNU/Linux'
-introduction: 'Des notes de cours sur le langage d'assemblage x86_64 sous GNU/Linux'
+twitter_text: "Des notes de cours sur le langage d'assemblage x86_64 sous GNU/Linux"
+introduction: "Des notes de cours sur le langage d'assemblage x86_64 sous GNU/Linux"
 ---
+
 
 # Introduction
 
