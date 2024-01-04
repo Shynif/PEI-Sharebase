@@ -51,7 +51,6 @@ logical and physical memory. Indeed, two different processes can have
 access to the same logical '0x4004c8' address, but in reality, this is
 not the same physical address.
 
-> [!NOTE]
 > In the context of a CPU and memory management, a \"page\" typically
 >refers to a fixed-size block of memory used in virtual memory systems.
 
@@ -69,7 +68,7 @@ Sachant qu'avec des pages de 4kB il y a 4096 octet par pages et que
 $2^{12} = 4096$ alors les 12 premiers octet (ceux de droite en
 big-endian)
 
-![image](../assets/img/fig/fig2.png){width="70%"}
+![image](../assets/img/fig/fig2.png)
 
 Tandis que les bits restant (ceux de gauche, toujours en big endian) sont utilisés pour le numéro de la page.
 Exemple \: avec ``Ox4000002220`` les 12 derniers bits sont ``0x220`` (car 1 caractère hexa représente 4 bits et $3 \times 4 = 12$).
@@ -85,7 +84,7 @@ Il y a plusieurs avantages à ce mode de fonctionnement
 
 Un processus linux est divisé en 4 régions dans la mémoire :
 
-![image](../assets/img/fig/fig3.png){width="70%"}
+![image](../assets/img/fig/fig3.png)
 
 ### La section text
 
@@ -146,7 +145,7 @@ The format for the p command is either p expression or p/FMT expression
 where FMT is a single letter defining the format of data to print. The
 format choices are :
 
-![image](../assets/img/fig/fig4.png){width="40%"}
+![image](../assets/img/fig/fig4.png)
 
 The format for examine is x/NFS address where N is a number of items to
 print (default 1), F is a single letter format as used in the print
@@ -154,7 +153,7 @@ command and S is the size of each memory location. Unfortunately gdb
 picked some size letters which conflict with some of the size options in
 yasm. Here are the size options:
 
-![image](../assets/img/fig/fig5.png){width="40%"}
+![image](../assets/img/fig/fig5.png)
 
 # Memory mapping in 64 bits mode
 
@@ -186,7 +185,6 @@ comprendre les exemples futurs).
 
 ## Vue globale d'une adresse virtuelle
 
-> [!NOTE]
 > Sign extension (sometimes abbreviated as sext, particularly in
 > mnemonics) is the operation, in computer arithmetic, of increasing the
 > number of bits of a binary number while preserving the number's sign
@@ -205,7 +203,7 @@ compris ça, nous pouvons attaquer la suite sans problème.\
 Dans une architecture x86_64, une adresse virtuelle est découpé en 6
 champs :
 
-![image](../assets/img/fig/decoupage_adresse_virtuelle.png){width="\\textwidth"}
+![image](../assets/img/fig/decoupage_adresse_virtuelle.png)
 
 Les bits 63-47 (et oui, pas 48) :
     Les 16 bits les plus à gauches sont ignorés, ils sont sensés servir à
@@ -227,17 +225,17 @@ comme vu précédemment il fait donc 12 bits de long.
 
 <https://stacklima.com/pagination-a-plusieurs-niveaux-dans-le-systeme-d-exploitation/>
 
-![image](../assets/img/fig/exemple-0.png){width="\\textwidth"}
+![image](../assets/img/fig/exemple-0.png)
 
 ```py
     >>> eval("0b" + bin(0x80801fffa8)[2:][::-1][30:38][::-1])
 ```
 
-![image](../assets/img/fig/exemple-1.png){width="\\textwidth"}
+![image](../assets/img/fig/exemple-1.png)
 
-![image](../assets/img/fig/exemple-2.png){width="\\textwidth"}
+![image](../assets/img/fig/exemple-2.png)
 
-![image](../assets/img/fig/exemple-3.png){width="\\textwidth"}
+![image](../assets/img/fig/exemple-3.png)
 
 ## Support de large page
 
@@ -256,7 +254,6 @@ Dès qu'on resolve un adresse elle est mise en cache dans une sorte de
 
 ## Définition
 
-> [!NOTE]
 > Un registre est un emplacement de mémoire interne à un processeur. Ce
 > dernier est de taille très réduite et de rapidité maximale.
 
@@ -265,7 +262,7 @@ Dès qu'on resolve un adresse elle est mise en cache dans une sorte de
 En x86_64, il y a plusieurs registres, voici une illustration des
 principaux :
 
-![image](../assets/img/fig/fig1.png){width="50%"}
+![image](../assets/img/fig/fig1.png)
 
 On voit bien que chaque registres de 64 bits peut être décliné en
 registres de 32, 16 ou 8 bits en spécifiant a quelle déclinaison du
@@ -308,7 +305,7 @@ utiliser d'autres instructions tel que :
 
 ## Le RFLAGS register (plus communement EFLAGS register) {#sec:flags}
 
-![image](../assets/img/fig/eflag_register.png){width="\\textwidth"}
+![image](../assets/img/fig/eflag_register.png)
 
 # Les variables
 
