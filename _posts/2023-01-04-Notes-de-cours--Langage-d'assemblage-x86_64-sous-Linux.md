@@ -71,15 +71,11 @@ big-endian)
 
 ![image](../assets/img/fig/fig2.png){width="70%"}
 
-Tandis que les bits restant (ceux de gauche, toujours en big endian)
-sont utilisés pour le numéro de la page. Exemple : avec ``Ox4000002220``
-les 12 derniers bits sont ``0x220`` (car 1 caractère hexa représente 4
-bits et $3 \times 4 = 12$). Et le reste est ``Ox4000002`` autrement dit,
-l'offset dans la page est de ... et le numéro de la page est de  ... (laissé au lecteur).
-Ensuite, un registre physique traduit ce numero de
-page (les bits restants de gauche) en une adresse physique, par exemple
-: ``Ox780000000``, on combine donc l'adresse traduite avec l'offset dans
-la page et on obtient : ``Ox780000220``.
+Tandis que les bits restant (ceux de gauche, toujours en big endian) sont utilisés pour le numéro de la page.
+Exemple \: avec ``Ox4000002220`` les 12 derniers bits sont ``0x220`` (car 1 caractère hexa représente 4 bits et $3 \times 4 = 12$).
+Et le reste est ``Ox4000002`` autrement dit, l'offset dans la page est de ... et le numéro de la page est de  ... (laissé au lecteur).
+Ensuite, un registre physique traduit ce numero de page (les bits restants de gauche) en une adresse physique,
+par exemple \: ``Ox780000000``, on combine donc l'adresse traduite avec l'offset dans la page et on obtient \: ``Ox780000220``.
 
 Il y a plusieurs avantages à ce mode de fonctionnement
 1. La protection de la mémoire
